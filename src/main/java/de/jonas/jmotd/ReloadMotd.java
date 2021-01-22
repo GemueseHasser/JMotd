@@ -8,7 +8,11 @@ import org.jetbrains.annotations.NotNull;
 
 import static de.jonas.JMotd.PREFIX;
 
+/**
+ * Hier wird der Command, der zum neu laden der MOTD bzw Config zuständig ist, implementiert.
+ */
 public class ReloadMotd implements CommandExecutor {
+    //<editor-fold desc="implementation">
     @Override
     public boolean onCommand(
         @NotNull final CommandSender sender,
@@ -29,4 +33,5 @@ public class ReloadMotd implements CommandExecutor {
         sender.sendMessage(PREFIX + "Du hast die MOTD neu geladen!");
         return true;
     }
+    //</editor-fold>
 }

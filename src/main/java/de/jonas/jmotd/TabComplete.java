@@ -9,8 +9,11 @@ import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Hier wird die Anzeige implementiert, die hinterher getabt werden kann.
+ */
 public class TabComplete implements TabCompleter {
-
+    //<editor-fold desc="implementation">
     @Nullable
     @Override
     public List<String> onTabComplete(
@@ -26,5 +29,5 @@ public class TabComplete implements TabCompleter {
         }
         return null;
     }
-
+    //</editor-fold>
 }

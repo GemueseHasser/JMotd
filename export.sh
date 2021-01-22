@@ -1,0 +1,1 @@
+mv /home/jonas/Dokumente/Java-Projekte/motd/target/JMotd.jar /home/jonas/Desktop/localServer/plugins

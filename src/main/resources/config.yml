@@ -1,0 +1,4 @@
+Config:
+  motd:
+    lineOne: '&aDas &6&lBESTE &aServer-Netzwer der Welt   &7[&51.8 - 1.16.5&7]'
+    lineTwo: '&aDie &6&lzweite &aZeile der MOTD'
